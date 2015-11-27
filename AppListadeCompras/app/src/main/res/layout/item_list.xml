@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:text="Hola mundo!"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/title_item"
+        android:layout_width="0dp"
+        android:textSize="24sp"
+        android:layout_height="50dp"
+        android:layout_weight="2"
+        android:padding="10dp"
+        android:text="Hola!"
+        android:textColor="@color/black"
+        />
+
+    
+
+</LinearLayout>
